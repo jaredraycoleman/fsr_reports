@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del \"c:\\\\Users\\\\jcolem27\\\\Documents\\\\fsr_reports\\\\2025\\\\fsr2025.bbl\")",
+      "Bash(pdflatex:*)",
+      "Bash(biber:*)",
+      "Bash(dir:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}

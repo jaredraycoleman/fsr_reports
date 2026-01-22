@@ -16,7 +16,8 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{pdfpages}
-\usepackage[numbers,sort&compress]{natbib}
+\usepackage[backend=biber,style=numeric-comp,sorting=none]{biblatex}
+\addbibresource{fsr2025.bib}
 
 % Define LMU colors
 \definecolor{lmublue}{RGB}{0,91,165}
@@ -71,51 +72,41 @@
 
 \vspace{1em}
 
-\begin{center}
-\begin{tabular}{llcc}
-\toprule
-\textbf{Semester} & \textbf{Course Number} & \textbf{Enrollment} & \textbf{Units} \\
-\midrule
-Spring 2025 & CMSI 2130 & 23 & 4 \\
-Spring 2025 & CMSI 6998 & 6 & 3 \\
-Fall 2025 & CMSI 2130 & 12 & 4 \\
-Fall 2025 & CMSI 2130 & 38 & 4 \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\vspace{1em}
-
-In 2025, my teaching and advising activities expanded significantly. I taught three sections of Algorithms \& Analysis and launched a new graduate special topics course on Decentralized Algorithms. My advising efforts resulted in multiple student presentations at national and international conferences, and I hired several undergraduate and graduate research assistants through external grant funding. These activities directly support LMU's mission by fostering inclusive, research-driven education and providing students from diverse backgrounds with opportunities to engage in cutting-edge scholarship.
-
-\subsection*{Teaching Activities}
-
-\begin{itemize}[leftmargin=*]
-\item \textbf{Taught:} \textit{Algorithms \& Analysis} (CMSI 2130) in both Spring and Fall 2025 semesters
-\item \textbf{Designed and Taught New Graduate Course:} \textit{Online and Decentralized Algorithms} (CMSI 6998) in Fall 2025, integrating theoretical foundations with real-world applications in distributed systems
-\item \textbf{Pre-College Summer Program:} Ran a two-week ``Python for AI-Powered Applications'' course (June 23--July 3, 2025) for LMU's pre-college summer program, introducing high school students to programming and AI concepts
-\end{itemize}
-
-\subsubsection*{Course Evaluation Summary}
-
-Across 4 course sections with 54 student responses (68\% response rate):
+In 2025, my teaching and advising activities expanded significantly. I taught three sections of Algorithms \& Analysis and launched a new graduate special topics course on Decentralized Algorithms. My advising efforts resulted in multiple student presentations at national and international conferences, and I hired several undergraduate and graduate research assistants through external grant funding and college support. These activities directly support LMU's mission by fostering inclusive, research-driven education and providing students from diverse backgrounds with opportunities to engage in cutting-edge scholarship.
 
 \vspace{0.5em}
-\begin{center}
+\noindent
 \small
-\begin{tabular}{lccr}
-\toprule
-\textbf{Course} & \textbf{Responses} & \textbf{Rate} & \textbf{Effectiveness (SD)} \\
-\midrule
-Spring 2025 -- CMSI 2130 & 13/23 & 57\% & 4.08 (1.19) \\
-Spring 2025 -- CMSI 6998 & 5/6 & 83\% & 5.00 (0.00) \\
-Fall 2025 -- CMSI 2130 (Sec 01) & 11/12 & 92\% & 4.73 (0.65) \\
-Fall 2025 -- CMSI 2130 (Sec 02) & 25/38 & 66\% & 4.36 (0.99) \\
-\midrule
-\textbf{Aggregate} & \textbf{54/79} & \textbf{68\%} & \textbf{4.43 (0.96)} \\
-\bottomrule
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|>{\raggedright}p{2.2cm}|>{\raggedright}p{3.8cm}|>{\centering}p{1.2cm}|>{\centering}p{1cm}|>{\centering}p{1.8cm}|>{\centering}p{1cm}|>{\centering\arraybackslash}p{1.8cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Semester}} & \textcolor{white}{\textbf{Course}} & \textcolor{white}{\textbf{Enroll}} & \textcolor{white}{\textbf{Units}} & \textcolor{white}{\textbf{Responses}} & \textcolor{white}{\textbf{Rate}} & \textcolor{white}{\textbf{Effect. (SD)}} \\
+\hline
+\rowcolor{undergradrow}
+Spring 2025 & CMSI 2130 & 23 & 4 & 13/23 & 57\% & 4.08 (1.19) \\
+\hline
+\rowcolor{gradrow}
+Spring 2025 & CMSI 6998 & 6 & 3 & 5/6 & 83\% & 5.00 (0.00) \\
+\hline
+\rowcolor{undergradrow}
+Fall 2025 & CMSI 2130 (Sec 01) & 12 & 4 & 11/12 & 92\% & 4.73 (0.65) \\
+\hline
+\rowcolor{undergradrow}
+Fall 2025 & CMSI 2130 (Sec 02) & 38 & 4 & 25/38 & 66\% & 4.36 (0.99) \\
+\hline
+\rowcolor{tableheader}
+\multicolumn{2}{|l|}{\textcolor{white}{\textbf{Aggregate (4 sections)}}} & \textcolor{white}{\textbf{79}} & \textcolor{white}{\textbf{15}} & \textcolor{white}{\textbf{54/79}} & \textcolor{white}{\textbf{68\%}} & \textcolor{white}{\textbf{4.43 (0.96)}} \\
+\hline
 \end{tabular}
-\end{center}
+\renewcommand{\arraystretch}{1.0}
+\normalsize
+
+\vspace{0.5em}
+\noindent\small
+\colorbox{undergradrow}{\strut\ Undergraduate\ } \colorbox{gradrow}{\strut\ Graduate\ }
+\normalsize
 
 \vspace{0.5em}
 \noindent Highest-rated areas (aggregate):
@@ -125,9 +116,17 @@ Fall 2025 -- CMSI 2130 (Sec 02) & 25/38 & 66\% & 4.36 (0.99) \\
 \item Instructor accessible for discussions: 4.59/5.0 (SD: 0.66)
 \end{itemize}
 
+\vspace{1em}
+
+\subsection*{Other Teaching Activities}
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Pre-College Summer Program:} Ran a two-week ``Python for AI-Powered Applications'' course (June 23--July 3, 2025) for LMU's pre-college summer program, introducing high school students to programming and AI concepts
+\end{itemize}
+
+
 \subsection*{Advising and Mentorship}
 
-\subsubsection*{Student Researchers}
 
 \vspace{0.5em}
 \noindent
@@ -143,19 +142,19 @@ Fall 2025 -- CMSI 2130 (Sec 02) & 25/38 & 66\% & 4.36 (0.99) \\
 Harsh Devisha & Fall 2025 & Cooperative mobile agent algorithms & Graduate Research Assistant \\
 \hline
 \rowcolor{gradrow}
-\makecell[l]{Mohammadali\\Khodabandehlou} & Ongoing & Dynamic IoT task graph scheduling & \cite{khodabandehlou2025sensys}; Co-advised (USC Ph.D.) \\
+\makecell[l]{Mohammadali\\Khodabandehlou} & Fall 2024 & Dynamic IoT task graph scheduling & \citetitle{khodabandehlou2025sensys}~\cite{khodabandehlou2025sensys}; Co-advised (USC Ph.D.) \\
 \hline
 \rowcolor{undergradrow}
-Jason Chamorro & Jan 2025-- & Stochastic/online scheduling & \cite{chamorro2025works} (lead author); LMU Symposium \\
+Jason Chamorro & Jan 2025-- & Stochastic/online scheduling & \citetitle{chamorro2025works}~\cite{chamorro2025works} (lead author); LMU Symposium poster \\
 \hline
 \rowcolor{undergradrow}
-Diego Cuadros & Ongoing & LLMs for Endangered Language Translation & \cite{cuadros2025americasnlp}; LMU Symposium poster \\
+Diego Cuadros & Fall 2024 & LLMs for Endangered Language Translation & \citetitle{cuadros2025americasnlp}~\cite{cuadros2025americasnlp}; LMU Symposium poster \\
 \hline
 \rowcolor{undergradrow}
 Nick Leeds & Feb 2025-- & LLMs for Endangered Language Translation & --- \\
 \hline
 \rowcolor{undergradrow}
-Gabriel Twigg-Ho & Fall 2024-- & Dynamic scheduling problems & \cite{chamorro2025works} (co-author); Exchange student \\
+Gabriel Twigg-Ho & Fall 2024-- & Dynamic scheduling problems & \citetitle{chamorro2025works}~\cite{chamorro2025works} (co-author); Exchange student \\
 \hline
 \rowcolor{undergradrow}
 \makecell[l]{Matias Martinez\\Gonzalez} & Sep 2025-- & Task Duplication in Scheduling & --- \\
@@ -188,7 +187,7 @@ Nicholas Laus & Sep 2025-- & Integrating SAGA with Parsl & --- \\
 
 \vspace{1em}
 
-In 2025, my research program advanced across three research areas: task graph scheduling algorithms, AI for endangered language preservation, and algorithms for cooperative mobile agents. I secured my first NSF grant as PI (\$150,000) and a second NSF conference grant (\$50,000), published and presented papers at top venues including SIROCCO, IPDPS, JSSPP, CCCG, and SC, and submitted proposals totaling over \$700,000. My research directly involves students at all levels and addresses societal challenges through technology (e.g., using AI to support Indigenous language revitalization). These efforts align with LMU's mission to address societal challenges, promote interdisciplinary collaboration, and foster student involvement in impactful research.
+In 2025, my research program advanced across my three research areas: task graph scheduling algorithms, AI for endangered language preservation, and algorithms for cooperative mobile agents. I secured my first NSF grant as PI (\$150,000) and a second NSF conference grant (\$50,000), published and presented papers at top venues including SIROCCO, IPDPS, JSSPP, CCCG, and SC, and submitted proposals totaling over \$700,000. My research directly involves students at all levels and addresses societal challenges through technology (e.g., using AI to support Indigenous language revitalization). These efforts align with LMU's mission to address societal challenges, promote interdisciplinary collaboration, and foster student involvement in impactful research.
 
 \subsection*{Grants and Proposals}
 
@@ -203,13 +202,13 @@ In 2025, my research program advanced across three research areas: task graph sc
 \textcolor{white}{\textbf{Grant/Proposal}} & \textcolor{white}{\textbf{Amount}} & \textcolor{white}{\textbf{Role}} & \textcolor{white}{\textbf{Date}} & \textcolor{white}{\textbf{Description}} \\
 \hline
 \rowcolor{grantawarded}
-NSF CRII & \$150,000 & PI & Jul 2025 & \cite{coleman2025crii}; First NSF grant as PI \\
+NSF CRII & \$150,000 & PI & Jul 2025 & Extending SAGA, our library for comparing task scheduling algorithms~\cite{coleman2025crii} \\
 \hline
 \rowcolor{grantawarded}
-NSF Conference Grant & \$50,000 & PI & Aug 2025 & \cite{coleman2025nsfconf} \\
+NSF Conference Grant & \$50,000 & PI & Aug 2025 & Host a workshop at LMU on AI and Endangered Language Revitalization~\cite{coleman2025nsfconf} \\
 \hline
 \rowcolor{grantawarded}
-OpenAI API Credits & \$1,000 & PI & Jan 2025 & LLMs for Endangered Language Preservation \\
+OpenAI API Credits & \$1,000 & PI & Jan 2025 & LLMs for Endangered Language Revitalization \\
 \hline
 \rowcolor{grantpending}
 NSF DLI-DEL & \$229,501 & PI & Sep 2025 & LLMs and Endangered Language Preservation; LMU lead (\$450K total) \\
@@ -245,58 +244,61 @@ Imminent Grant & \$20,000 & PI & Aug 2025 & Endangered language translation rese
 \scriptsize
 \renewcommand{\arraystretch}{1.3}
 \setlength{\tabcolsep}{4pt}
-\begin{tabular}{|>{\raggedright}p{5.2cm}|>{\centering}p{1.5cm}|>{\centering}p{2cm}|>{\centering}p{1.4cm}|>{\centering}p{1.4cm}|>{\centering\arraybackslash}p{2.2cm}|}
+\begin{tabular}{|>{\raggedright}p{5.8cm}|>{\centering}p{1.5cm}|>{\centering}p{2cm}|>{\centering}p{1.6cm}|>{\centering\arraybackslash}p{2.6cm}|}
 \hline
 \rowcolor{tableheader}
-\textcolor{white}{\textbf{Title}} & \textcolor{white}{\textbf{Type}} & \textcolor{white}{\textbf{Venue}} & \textcolor{white}{\textbf{Submitted}} & \textcolor{white}{\textbf{Decision}} & \textcolor{white}{\textbf{Presented}} \\
+\textcolor{white}{\textbf{Title}} & \textcolor{white}{\textbf{Type}} & \textcolor{white}{\textbf{Venue}} & \textcolor{white}{\textbf{Submitted}} & \textcolor{white}{\textbf{Presented}} \\
 \hline
 \rowcolor{pubaccepted}
-Power of Knowledge in Linear Search \cite{coleman2026jcss} & Journal & JCSS & Aug 2025 & Dec 2025 & --- \\
-\hline
-\rowcolor{pubpending}
-Multimodal Search on a Line (extended) & Journal & Algorithmica & Sep 2025 & --- & --- \\
-\hline
-\rowcolor{pubaccepted}
-Multimodal Search on a Line \cite{coleman2025sirocco} & Conf & SIROCCO & --- & Feb 2025 & J. Coleman (Jun 3) \\
-\hline
-\rowcolor{pubaccepted}
-PISA: Adversarial Task Graph Scheduling \cite{coleman2025ipdps} & Conf & IPDPS & --- & --- & J. Coleman (Jun 5) \\
-\hline
-\rowcolor{pubaccepted}
-Algorithmic Components in Scheduling \cite{coleman2025jsspp} & Conf & JSSPP & Feb 2025 & Mar 2025 & J. Coleman (Jun 4) \\
-\hline
-\rowcolor{pubaccepted}
-Scheduling in Tactical Edge Cloud \cite{coleman2025icmcis} & Conf & ICMCIS & Jan 2025 & Feb 2025 & Co-author \\
-\hline
-\rowcolor{pubaccepted}
-Linear Search w/ Probabilistic Detection \cite{coleman2025iwoca} & Conf & IWOCA & Mar 2025 & --- & Co-author \\
+\citetitle{coleman2026jcss}~\cite{coleman2026jcss} & Journal & JCSS & Aug 2025 & --- \\
 \hline
 \rowcolor{pubrejected}
-Optimal Delivery with a Faulty Drone & Conf & ACDA & Jan 2025 & Rejected & --- \\
+Multimodal Search on a Line (extended) & Journal & Algorithmica & Sep 2025 & --- \\
 \hline
 \rowcolor{pubaccepted}
-Optimal Delivery with a Faulty Drone \cite{coleman2025cccg} & Conf & CCCG & May 2025 & Jun 2025 & Co-author \\
+\citetitle{coleman2025sirocco}~\cite{coleman2025sirocco} & Conf & SIROCCO & --- & J. Coleman (Jun 3) \\
 \hline
 \rowcolor{pubaccepted}
-Classic Heuristics for Online Scheduling \cite{chamorro2025works} & Workshop & WORKS & Aug 2025 & Sep 2025 & J. Chamorro (Nov 17) \\
+\citetitle{coleman2025ipdps}~\cite{coleman2025ipdps} & Conf & IPDPS & Oct 2024 & J. Coleman (Jun 5) \\
 \hline
-\rowcolor{pubpending}
-LLM Translation for Low-Resource Lang. & Conf & AAAI AISI & Aug 2025 & --- & --- \\
+\rowcolor{pubaccepted}
+\citetitle{coleman2025jsspp}~\cite{coleman2025jsspp} & Conf & JSSPP & Feb 2025 & J. Coleman (Jun 4) \\
+\hline
+\rowcolor{pubaccepted}
+\citetitle{coleman2025icmcis}~\cite{coleman2025icmcis} & Conf & ICMCIS & Jan 2025 & Co-author \\
+\hline
+\rowcolor{pubaccepted}
+\citetitle{coleman2025iwoca}~\cite{coleman2025iwoca} & Conf & IWOCA & Mar 2025 & Co-author \\
 \hline
 \rowcolor{pubrejected}
-Preemption in Dynamic Task Scheduling & Conf & ICPP & May 2025 & Rejected & --- \\
+Optimal Delivery with a Faulty Drone & Conf & ACDA & Jan 2025 & --- \\
 \hline
 \rowcolor{pubaccepted}
-Scheduling Dynamic IoT Task Graphs \cite{khodabandehlou2025sensys} & Poster & SenSys & --- & Mar 2025 & M. Khodabandehlou \\
+\citetitle{coleman2025cccg}~\cite{coleman2025cccg} & Conf & CCCG & May 2025 & Co-author \\
 \hline
 \rowcolor{pubaccepted}
-Chatbot for Endangered Language \cite{cuadros2025americasnlp} & Poster & AmericasNLP & Jan 2025 & Mar 2025 & D. Cuadros (Apr 29) \\
+\citetitle{chamorro2025works}~\cite{chamorro2025works} & Workshop & WORKS & Aug 2025 & J. Chamorro (Nov 17) \\
+\hline
+\rowcolor{pubpending}
+LLM Translation for Low-Resource Lang. & Workshop & LoResMT & Dec 2025 & --- \\
+\hline
+\rowcolor{pubrejected}
+LLM Translation for Low-Resource Lang. & Conf & AAAI AISI & Aug 2025 & --- \\
+\hline
+\rowcolor{pubrejected}
+Preemption in Dynamic Task Scheduling & Conf & ICPP & May 2025 & --- \\
 \hline
 \rowcolor{pubaccepted}
-SAGA Tutorial \cite{coleman2025icdcn} & Tutorial & ICDCN & Sep 2025 & Sep 2025 & J. Coleman (Jan 2026) \\
+\citetitle{khodabandehlou2025sensys}~\cite{khodabandehlou2025sensys} & Poster & SenSys & Feb 2025 & M. Khodabandehlou \\
 \hline
 \rowcolor{pubaccepted}
-Edge Computing at Tactical Edge \cite{coleman2025nato} & Report & NATO STO & Aug 2025 & Aug 2025 & --- \\
+\citetitle{cuadros2025americasnlp}~\cite{cuadros2025americasnlp} & Poster & AmericasNLP & Jan 2025 & D. Cuadros (Apr 29) \\
+\hline
+\rowcolor{pubaccepted}
+\citetitle{coleman2025icdcn}~\cite{coleman2025icdcn} & Tutorial & ICDCN & Sep 2025 & J. Coleman (Jan 2026) \\
+\hline
+\rowcolor{pubaccepted}
+\citetitle{coleman2025nato}~\cite{coleman2025nato} & Report & NATO STO & Aug 2025 & --- \\
 \hline
 \end{tabular}
 \renewcommand{\arraystretch}{1.0}
@@ -307,13 +309,10 @@ Edge Computing at Tactical Edge \cite{coleman2025nato} & Report & NATO STO & Aug
 \colorbox{pubaccepted}{\strut\ Accepted/Published\ } \colorbox{pubpending}{\strut\ Under Review\ } \colorbox{pubrejected}{\strut\ Rejected\ }
 \normalsize
 
-\vspace{0.5em}
-\noindent\textbf{Summary:} 11 accepted (7 conf, 1 journal, 2 posters, 1 tutorial), 2 under review, 2 rejections (1 resubmitted successfully)
-
 
 \subsection*{Other Contributions}
 \begin{itemize}[leftmargin=*, nosep]
-\item \textbf{Adjunct Appointment at USC} (May 2025): Accepted to facilitate collaboration
+\item \textbf{Adjunct Appointment at USC} (May 2025): Accepted to facilitate collaboration and co-advising with USC faculty and students
 \end{itemize}
 
 \newpage
@@ -424,7 +423,7 @@ Jan 22, 2025 & Seaver Lunch N' Learn & Attendee & International Collaborations w
 \rowcolor{tableheader}
 \textcolor{white}{\textbf{Venue}} & \textcolor{white}{\textbf{Type}} & \textcolor{white}{\textbf{Date}} & \textcolor{white}{\textbf{Role}} \\
 \hline
-\href{https://netcompute.org}{NetCompute Workshop} @ INFOCOM & Workshop & Nov 2025 & Co-Organizer \\
+NetCompute Workshop @ INFOCOM & Workshop & Nov 2025 & Co-Chair \\
 \hline
 SC 2025 Reproducibility Challenge & Conference & Jan 2025 & Committee \\
 \hline
@@ -446,7 +445,7 @@ Int'l Journal of Computer Applications (IJCAT) & Journal & Jan 2025 & Reviewer \
 \begin{itemize}[leftmargin=*, nosep]
 \item \textbf{LMU Indigenous Community Hub} (Jun 2025): Took over management and updated the website
 \item \textbf{Tribal Settlement Letter} (Aug 2025): Signed letter urging Los Angeles to commit to Tribal settlement negotiations (corresponding author: Sophia Borgias)
-\item \textbf{Kubishi Survey} (Jul 2025): Submitted IRB-approved survey on digital tools for Owens Valley Paiute Language Revitalization
+\item \textbf{Kubishi Survey} (Jul 2025): Conducted and published IRB-approved survey on digital tools for Owens Valley Paiute Language Revitalization
 \item \textbf{Coinbase} (started Jan 2025): Consulting on using reinforcement learning to detect fraud in blockchain transactions
 \end{itemize}
 
@@ -456,8 +455,7 @@ Int'l Journal of Computer Applications (IJCAT) & Journal & Jan 2025 & Reviewer \
 %% REFERENCES
 %% ============================================================================
 
-\bibliographystyle{unsrtnat}
-\bibliography{references}
+\printbibliography
 
 %% ============================================================================
 %% SIGNATURE PAGE (from official PDF)
