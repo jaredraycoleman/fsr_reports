@@ -1,0 +1,93 @@
+## Completed
+
+- **01/13/2025**: Hired Jason Chamorro with RAINS funding to work as research assistant for Spring 2025 (on stochastic/online scheduling stuff).
+- **01/13/2025**: Awarded 1000 USD in OpenAI API credits for research in LLMs and Endangered Language Preservation.
+- **01/14/2025**: Met with SC 2025 Reproducibility Challenge Committee.
+- **01/17/2025**: Submitted "Evaluating Scheduling Algorithms for Adaptive Orchestration in Federated Tactical Edge Cloud Environments" to ICMCIS 2025.
+- **01/19/2025**: Reviewed a paper for International Journal of Computer Applications (IJCAT).
+- **01/22/2025**: Attended Seaver Lunch N’ Learn on International Collaborations with Indian Institutions. I followed up with Tina to say I was interested in collaborating with Indian faculty/students.
+- **01/27/2025**: Attended IWG meeting ([notes](https://trello.com/c/Yr0wbKir#comment-6797fb562ee66e91ab204925)).
+- **01/27/2025**: Advisee Diego Cuadros submitted abstract to LMU Undergraduate Student Research Symposium.
+- **01/27/2025**: Submitted Faulty Delivery paper to ACDA 2025
+- **01/29/2025**: Started consulting for Coinbase on using RL to detect fraud in blockchain transactions.
+- **02/01/2025**: Multimodal Search on a Line paper was accepted at SIROCCO 2025.
+- **02/02/2025**: Submitted Parametric Scheduling paper to JSSPP 2025.
+- **02/10/2025**: Finalized date for Teri Red Owl to Speak and added a second speaker: Glenn Nelson (language carrier/teacher)
+- **02/26/2025**: Diego Cuadros’s and Jason Chamorro’s posters were accepted for LMU USR
+- **02/26/2025**: Started advising Nick Leeds to help Diego with LLM endangered language translation work.
+- **02/26/2025**: Scheduling paper with NATO collaborators was accepted at ICMCIS 2025
+- **03/07/2025**: Served on CCGrid Artefact Evaluation Committee
+- **03/07/2025**: Submitted paper "Linear Search with Probabilistic Detection and Variable Speeds" (with collaborator Oscar Morales Ponce) to IWOCA 2025.
+- **03/10/2025**: Poster "Scheduling Dynamic IoT Task Graphs" accepted at Sensys 2025 (USC Ph.D. student advisee Mohammadali Khodabandehlou’s work).
+- **03/13/2025**: Paper "Evaluating the Impact of Algorithmic Components on Task Graph Scheduling" accepted at JSSPP 2025.
+- **03/11/2025**: Invited to serve on the NSF DLI-DEL Spring 2025 reviewer panel.
+- **03/20/2025**: Hosted Teri Red Owl for talk about Indigenous water rights and the Owens Valley Indian Water Commission.
+- **03/21/2025**: Undergraduate students Diego Cuadros and Jason Chamorro presented their posters at the LMU Undergraduate Research Symposium.
+- **03/21/2025**: Diego Cuadros poster was accepted for presentation at the AmericasNLP workshop at NAACL 2025.
+- **03/25/2025**: Submitted paper for consideration for best open-source contribution award at IPDPS 2025.
+- **04/04/2025**: Submitted Schmidt Sciences Humanities and AI Virtual Institute Expression of Interest "Studying the Syntactic Capabilities of LLMs in Relation to Endangered Language Translation" with Bhaskar Krishnamachari and Khalil Iskarous.
+- **04/04/2025**: Submitted Schmidt Sciences Humanities and AI Virtual Institute Expression of Interest "Privacy-Preserving AI Infrastructure for Humanities Data Applications" with Tainã Coleman, İlkay Altintaş, and Mairead Sullivan.
+- **04/28/2025**: Submitted tutorial proposal to SC 25 "Scheduling with SAGA: Benchmarking and Adversarial Analysis" with Bhaskar Krishnamachari, Jason Chamorro, and Gabriel Twigg-Ho.
+- **04/29/2025**: Attended NAACL 2025 with student Diego Cuadros for his poster presentation: "A Chatbot for Endangered Language Research".
+- **05/01/2025**: Submitted "Studying the Effect of Schedule Preemption on Dynamic Task Graph Scheduling" to ICPP with Bhaskar Krishnamachari and Mohammadali Khodabandehlou.
+- **05/05/2025**: Submitted Faulty Delivery paper to CCCG.
+- **05/08/2025-05/12/2025**: Served on the NSF DLI-DEL Spring 2025 reviewer panel.
+- **05/13/23**: Accepted adjunct appointment at USC.
+- **05/24/23**: Attended first Dynamic Language Infrastructure (DLI) Community of Science event about Indigenous Language Preservation.
+- **06/03/2025**: Presented paper “Multimodal Search on a Line” at SIROCCO 2025 in Delphi, Greece
+- **06/04/2025**: Presented paper “Evaluating the Impact of Algorithmic Components on Task Graph Scheduling” at JSSPP workshop at IPDPS 2025 in Milan, Italy
+- **06/05/2025**: Presented paper “Evaluating the Impact of Algorithmic Components on Task Graph Scheduling” at IPDPS 2025 in Milan, Italy
+- **06/15/2025**: Served as reviewer for Discrete Applied Mathematics Journal
+- **06/17/2025**: "Optimal Delivery with a Faulty Drone" paper accepted at CCCG 2025.
+- **06/18/2025**: Took over management of the LMU Indigenous Community Hub and updated the website.
+- **06/23/2025-07/03/2025:** Ran  two-week “Python for AI-powered applications” LMU pre-college summer program.
+- **07/01/2025**: Joined CS GenAI Task Force task force with Jordan Freitas (lead), Andrew Forney, Mandy Korpusik, and Lanyu Shang to produce documents with a CS perspective on Generative AI in higher education [[GenAI Task Force]].
+- **07/17/2025**: Awarded NSF Grant [CRII: CSR: RUI: Novel Approaches for Task Graph Scheduling Algorithm Design, Evaluation, and Comparison](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2451267) ($150,000)
+- **07/22/2025**: Submitted NSF proposal "Conference: Building Scientific and Collaborative Capacity for AI in Indigenous Language Research" ($50,000)
+- **07/25/2025**: Served on Program Committee for [WISDOM 2025](https://workflows.community/workshops/wisdom-2025/)
+- **07/25/2025**: Submitted Kubishi Survey on Survey on Digital Tools for Owens Valley Paiute Language Revitalization for IRB review
+- **08/01/2025**: Submitted "Comparing LLM-Based Translation Approaches for Extremely Low-Resource Languages" paper to AAAI 2026 Special Track on AI for Social Impact with Jason Chamorro, Gabriel Twigg-Ho, Taina Coleman, Bhaskar Krishnamachari, and Mohammadali Khodabandehlou.
+- **08/01/2025**: Submitted revised manuscript of "The Power of Knowledge in Linear Search for an Escaping Target" addressing reviewer comments to Journal of Computer and System Sciences (JCSS). Authors: Jared Coleman, Dmitry Ivanov, Evangelos Kranakis, Danny Krizanc, and Oscar Morales-Ponce.
+- **08/08/2025**: Submitted "An Automated Approach to Online Task Scheduling Algorithms" to WORKS workshop at SC 25.
+- **08/08/2025**: Wrote chapter of NATO STO-TR-IST-193 Final Technical Report on "Edge Computing at the Technical Edge".
+- **08/08/2025**: Applied for [[Imminent (Translated's Research Center) Grant]] ($20,000)
+- **08/19/2025**: Submitted paper to MILCOM IoT in Adversarial Environments Workshop "Rescheduling for Resilience in Mission-Critical IoT Workflows" (Bhaskar Krishnamachari, Mohammadali Khodabandehlou)
+- **08/19/2025**: Submitted paper to MILCOM IoT in Adversarial Environments Workshop "Rescheduling for Resilience in Mission-Critical IoT Workflows" (Jason Chamorro, Gabriel Twigg-Ho, Taina Coleman, Bhaskar Krishnamachari, Mohammadali Khodabandehlou)
+- **08/19/2025**: Submitted paper to MILCOM IoT in Adversarial Environments Workshop "Studying the Effect of Schedule Preemption on Dynamic Task Graph Scheduling" (Jason Chamorro, Gabriel Twigg-Ho, Taina Coleman, Bhaskar Krishnamachari, Mohammadali Khodabandehlou)
+- **08/25/2025**: Submitted Poster "A Parametric Evaluation of 36 Online Task Scheduling Algorithms" to SC 25 (Jason Chamorro, Gabriel Twigg-Ho, Taina Coleman, Bhaskar Krishnamachari, Mohammadali Khodabandehlou)
+- **08/25/2025**: Submitted Paper "Adapting Classic Scheduling Heuristics for Online Execution under Uncertainty" to WORKS Workshop @ SC 25 (Jason Chamorro, Gabriel Twigg-Ho, Taina Coleman, Bhaskar Krishnamachari, Mohammadali Khodabandehlou)
+- **08/26/2025**: Joined Seaver DEI Committee
+- **08/26/2025**: Joined LMU GenAI Task Force
+- **08/26/2025**: Signed on to "Letter from thirty scholars urging Los Angeles to commit to Tribal settlement negotiations" (corresponding author Sophia Borgias)
+- **08/27/2025**: NSF Conference Proposal "[[NSF - Conference - Building Scientific Capacity for Artificial Intelligence|Conference: Building Scientific Capacity for Artificial Intelligence]]" awarded ($50,000)
+- **09/01/2025**: Submitted SAGA Tutorial Proposal to ICDCN 2025
+- **09/01/2025**: Hired Harsh Devisha as a Graduate Research Assistant to help with research on cooperative mobile agents algorithms.
+- **09/01/2025**: Hired Matias Martinez Gonzalez and Nicholas Laus (undergraduate students) under [[NSF - Novel Approaches for Task Graph Scheduling Algorithm Design, Evaluation, and Comparison|NSF Task Scheduling]] grant to work on SAGA.
+- **09/05/2025**: Held first meeting of Organizational Committee for AI and Indigenous Languages Workshop with myself (chair), Tainã Coleman, Bhaskar Krishnamachari, Glenn Nelson, and Khalil Iskarous.
+- **09/05/2025**: Met with Natasha Warner at University of Arizona who wants to invite me to give a talk on my research on AI and Indigenous Language Revitalization and meet with their department.
+- **09/08/2025**: Paper "Adapting Classic Scheduling Heuristics for Online Execution under Uncertainty" accepted to WORKS Workshop @ SC 25 (Jason Chamorro, Gabriel Twigg-Ho, Taina Coleman, Bhaskar Krishnamachari, Mohammadali Khodabandehlou)
+- **09/08/2025**: Attended first AI Task Force meeting 
+- **09/15/2025**: Invited to give 1 hour Visionary Talk at the MILCOM Workshop on IoT for Adversarial Environments on "Rethinking Scheduling for Resilience in Mission-Critical IoT Workflows".
+- **09/15/2025**: Tutorial accepted at ICDCN 2025, "Resilient Scheduling in Distributed Systems: Benchmarking and Adversarial Analysis with SAGA".
+- **09/15/2025**: Submitted $450,000 ($229,501 for LMU, $220,499 for USC) NSF DLI-DEL proposal "LLMs and Endangered Language Preservation". LMU is the lead institution with me as PI, USC is the collaborative institution with PIs Dr. Bhaskar Krishnamachari (Professor of Electrical Engineering and Computer Science) and Dr. Khalil Iskarous (Associate Professor of Linguistics).
+- **09/15/2025**: Reviewed for Transactions on Computers Journal
+- **09/18/2025**: Attended NSF CSR PI Meeting in Boca Raton, Florida.
+- **09/19/2025**: Served on AAAI AISI Program Committee
+- **09/19/2025**: Submitted a journal version of our paper, "Multimodal Search on a Line" to Algorithmica (Jared Coleman, Dmitry Ivanov, Evangelos Kranakis, Danny Krizanc, Oscar Morales-Ponce)
+- **10/03/2025**: Attended Seaver DEI committee meeting
+- **10/06/2025**: Gave invited Visionary Talk, "Rethinking Scheduling for Resilience in Mission-Critical IoT Workflows" at the Workshop on IoT for Adversarial Environments at MILCOM 2025 in Los Angeles
+- **10/06/2025**: Chaired Session on Data Integrity & Threat Awareness at MILCOM 2025
+- **10/07/2025**: Held first Indigenous Working Group meeting of Fall 2025 semester. I was elected to Chair the group.
+- **10/09/2025**: Invited to participate in proposal in collaboration with NATO "Adapting the Edge-Cloud Continuum for Tactical Networks" 
+- **10/24/2025**: Gave Lightning Lecture at Seaver Family Night
+- **10/28/2025**: Submitted workshop proposal to INFOCOM
+- **11/01/2025**: Workshop proposal (NetComm) accepted at INFOCOM.
+- **11/05/2025**: Submitted proposal to Amazon AWS Think Big call for proposals
+- **11/12/2025**: Gave invited speaker talk on my work on LLMs and Endangered Language Revitalization as a part of the Lectures on Linguistics and Language (LLL) Series in the Department of Linguistics at the University of Illinois Chicago
+- **11/17/2025**: Student Jason Chamorro presented our paper "Adapting Classic Scheduling Heuristics for Online Execution under Uncertainty" at WORKS @ SC25.
+- **12/04/2025**: Submitted MAIDAS proposal. I am a subaward on the proposal (PI: Ilkay Altintas, San Diego Super Computer Center). Proposal is $30 million. My subaward is $150,000 over 5 years as a co-design lead for integrating responsible AI for Indigenous language revitalization into the platform.
+- **12/03/2025**: Hosted Indigenous Working Group Event, "IN FOCUS: Indigenous Representation in the Arts and Media" featuring Emmy-nominated producer, writer, and director Tazbah Rose Chavez (Bishop Paiute) and multimedia documentarian and photographer Pamela J. Peters (Diné).
+- **12/08/2025**: JCSS Journal Published (https://www.sciencedirect.com/science/article/pii/S0022000025001199)
+- **12/08/2025**: Reviewed for Theoretical Computer Science Journal
+- **12/22/2026**: Met with Awahusu, directory of the Nüümü Yadoha Language Program in Bishop, CA to discuss potential collaborations on technology for language revitalization programs.
+

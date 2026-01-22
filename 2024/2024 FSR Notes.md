@@ -1,0 +1,39 @@
+- **08/20/2024**: Meeting with CS Faculty and Dr. Mairead Sullivan about collaboration between Department of Women’s and Gender Studies and CS about AI and Disability Services.
+- **08/26/2024**: Started advising graduate research assistant Kathan Pathak. Weekly meetings to persist throughout semester.
+- **09/05/2024:** Started preparing 6998 special topics graduate class “Online Algorithms and Decentralized Systems”
+- **09/06/2024:** Submitted two papers to OPODIS 2024: “Multimodal Search on a Line” and “Optimal Delivery with a Faulty Drone”
+- **09/11/2024:** Presented updates on Task Scheduling work to NATO IST-193 people.
+- **09/13/2024:** Submitted $450,000 ($239,062 for LMU, $210,938 for USC) NSF DLI-DEL proposal “LLMs and Endangered Language Preservation”. LMU is the lead institution with me as PI, USC is the collaborative institution with PIs Dr. Bhaskar Krishnamachari (Professor of Electrical Engineering and Computer Science) and Dr. Khalil Iskarous (Associate Professor of Linguistics).
+- **09/17/2024:** Submitted $175,000 NSF DLI-DEL proposal “CRII: CSR: RUI: Novel Approache+s for Task Graph Scheduling Algorithm Design, Evaluation, and Comparison”.
+- **10/2024:** Started advising undergraduate students on research projects: Gabriel Twigg-Ho (1-semester exchange student), Jason Chamorro, Diego Cuadros, Sammy Santos
+- **11/6/2024:** Submitted $70,000 AWS AI proposal “Tools for LLM-Based Machine Translation Approaches for Extremely Low Resource Languages”.
+- **11/8/2024:** Reviewed article for academic journal “Journal of Computer and System Sciences”
+- **11/11/2024:** Attended first Indigenous Working Group meeting
+- **11/12/2024**: Started advising undergraduate student Matias Gonzalez on research project
+- **11/12/2024:** Met with Nicolas Rosenthal to plan Indigenous Heritage Month event with speaker from Owens Valley
+- **11/12/2024**: Began discussion with Lisa on Indigenous Plant names in Ballona Park
+- **11/13/2024:** Met with Ashley Okimoto and Dan Moffet about pre-college summer CS course I’ll be giving. Confirmed with Aerospace Corp that they can host a visit for field trip day.
+- **11/22/2024**: Met with Lisa Fimiani (Program Director, Center for Urban Resilience) and Monica Cabrera (Professor of Modern Languages and Literatures - Spanish) to discuss new signage project for Ballona parks with Indigenous plant names.
+- **12/3/2024**: Hosted Teri Red Owl (Executive Director of the Owens Valley Indian Water Commission) for a talk celebrating Indigenous Heritage Month on the history of water rights in Owens Valley and modern efforts.
+
+**Papers in Under Review**
+
+- Jared Coleman and Bhaskar Krishnamachari. “Comparing Task Graph Scheduling Algorithms: An Adversarial Approach”. IEEE IPDPS 2025.
+- Jared Coleman, Ravi Vivek Agrawal, Ebrahim Hirani, and Bhaskar Krishnamachari. “Evaluating the Impact of Algorithmic Components on Task Graph Scheduling”. IEEE INFOCOM 2025.
+- Jared Coleman, Ruben Rosales, Khalil Iskarous, and Bhaskar Krishnamachari. “Comparing LLM-Based Translation Approaches for Extremely Low-Resource Languages”. NAACL 2025.
+- Jared Coleman, Dmitry Ivanov, Evangelos Kranakis, Danny Krizanc, and Oscar Morales-Ponce. “Linear Search for an Escaping Target with Unknown Speed”. SIROCCO 2025.
+- Jared Coleman, Evangelos Kranakis, Danny Krizanc, and Oscar Morales-Ponce. “Optimal Delivery with a Faulty Drone”. CIAC 2025.
+- Jared Coleman, Dmitry Ivanov, Evangelos Kranakis, Danny Krizanc, and Oscar Morales-Ponce. “The Power of Knowledge in Linear Search for an Escaping Target”. Journal of Computer and System Sciences (JCSS).
+
+**Works in Progress**
+
+- _Stochastic/Online Scheduling_ (Jason Chamorro, CS undergraduate student; Gabriel Twigg-Ho, CS international visiting student): Adapting the schedulers implemented in our python library SAGA to work for the stochastic and online case. Meet 1/week.
+- _Dynamic Workflows_ (Matias Martinez, undergraduate): Adapting scheduling algorithms in SAGA to work for dynamic workflows. Meet 1/week.
+- _Generating Culturally Appropriate Images for Language Education_ (Kathan Pathak, CS graduate student): Exploring how to prompt AI image generation models to produce images that are culturally appropriate and useful for teaching endangered languages. Meet 1/week.
+- _RAG & LLM-Assisted Rule Based Machine Translators for Endangered Languages_ (Diego Cuadros, CS undergraduate student): Exploring how Retrieval Augmented Generation (RAG) can be used to improve LLMs ability at translating extremely low-resource languages. Meet 1/week.
+- _Faulty Delivery in the Wifi Model_ (Dr. Evangelos Kranakis, Chancellor's Professor at Carleton University; Dr. Danny Krizanc, Professor at Wesleyan University; and Dr. Oscar Morales-Ponce, Associate Professor at California State University, Long Beach): This work investigates the optimal trajectory of a helper drone deployed to ensure package delivery in case a primary drone, moving in a straight line towards its destination, experiences a failure or communication loss, with a focus on minimizing the competitive ratio compared to an omniscient alternative. Meet 1/week.
+- _Multispeed Cow Path Problem_ (Dr. Oscar Morales-Ponce, Associate Professor at California State University, Long Beach): This work explores new variants of the linear search problem, analyzing an agent's optimal search strategy on an infinite line when its detection capabilities vary with travel speed—guaranteed at slower speeds and probabilistic at faster speeds. Meet 1/week.
+- _Proving Bounds for the WFChef Workflow pattern finding algorithm_ (Sammy Santos, CS undergraduate student; Dr. Tainã Coleman, Postdoctoral Fellow at San Diego Supercomputing Center): Proving formal bounds for the previously proposed workflow pattern detection algorithm and possibly ways to improve its runtime. Met once, regular meeting schedule TBD.
+- _Parametric Scheduling with Constraints_ (Dr. Alessandro Amato, Research Associate at Florida Institute for Human and Machine Cognition; Dr. Harrie Bastiaansen, Scientist Integrator at The Netherlands Organisation for Applied Scientific Research; Dr. Willem Datema, Scientist Integrator at The Netherlands Organisation for Applied Scientific Research; Dr. Mattia Fogli, Postdoctoral Researcher at University of Ferrara; Dr. Johan van der Geest, Research Scientist at The Netherlands Organisation for Applied Scientific Research; Bhaskar Krishnamachari, Professor at University of Southern California; Dr. Thomas Kudla, Researcher at Fraunhofer Institute for Communication; Dr. Pablo Sanchez, Assistant Professor at University of Cantabria; Dr. Niranjan Suri, Senior Research Scientist at US Army DEVCOM Army Research Laboratory): Exploring how the parametric scheduling algorithms proposed in our previous work can be extended to support task/node constraints. This problem is inspired by a real scenario important to NATO. Meet ~1/month. Currently preparing a paper for ICMCIS 2025.
+- _Federated Finetuning on the Blockchain_ (Alex Sotiropoulos, CS masters student at University of Southern Calfiornia; Linus Lei, CS masters student at University of Southern California; Sulyab Thottungal Valapu, PhD student at University of Southern California; Bhaskar Krishnamachari, Professor at University of Southern California): Explore how LLM fine-tuning can be crowdsourced using distributed ledger technology. Meet ~1/month.
+- _LLM-Probing_ (Dr. Bhaskar Krishnamachari, Professor at University of Southern California; Ayah League, CS undergraduate student at University of Southern California): Exploring how to apply LLM-probing techniques to understand what linguistic information embeddings are encoding. Meet 1/week.

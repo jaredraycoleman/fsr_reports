@@ -1,0 +1,467 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{cellspace}
+\setlength{\cellspacetoplimit}{4pt}
+\setlength{\cellspacebottomlimit}{4pt}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{pdfpages}
+\usepackage[numbers,sort&compress]{natbib}
+
+% Define LMU colors
+\definecolor{lmublue}{RGB}{0,91,165}
+
+% Student table colors
+\definecolor{gradrow}{RGB}{230,242,255}    % Light blue for graduate students
+\definecolor{undergradrow}{RGB}{255,248,220} % Light yellow for undergraduates
+\definecolor{tableheader}{RGB}{0,91,165}   % LMU blue for header
+
+% Grant table colors
+\definecolor{grantawarded}{RGB}{220,245,220}   % Light green for awarded
+\definecolor{grantpending}{RGB}{255,248,220}   % Light yellow for pending
+\definecolor{grantnotawarded}{RGB}{255,230,230} % Light red for not awarded
+
+% Publication table colors
+\definecolor{pubaccepted}{RGB}{220,245,220}    % Light green for accepted/published
+\definecolor{pubpending}{RGB}{255,248,220}     % Light yellow for under review
+\definecolor{pubrejected}{RGB}{255,230,230}    % Light red for rejected
+
+% Service table colors
+\definecolor{serviceuniv}{RGB}{230,242,255}    % Light blue for university committees
+\definecolor{serviceprof}{RGB}{255,248,220}    % Light yellow for professional service
+\definecolor{serviceevent}{RGB}{240,235,250}   % Light purple for events
+
+% Section formatting
+\titleformat{\section}{\normalfont\Large\bfseries\centering}{}{0em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{}{0em}{}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=lmublue,
+    urlcolor=lmublue,
+    citecolor=lmublue
+}
+
+% Header/Footer - no page numbers
+\pagestyle{empty}
+
+\begin{document}
+
+%% ============================================================================
+%% COVER PAGES 1-2 (from official PDF)
+%% ============================================================================
+\includepdf[pages={1,2}]{FINAL_FSR Form for FT-TL Faculty 2025.pdf}
+
+%% ============================================================================
+%% TEACHING / ADVISING
+%% ============================================================================
+\section*{Teaching / Advising}
+
+\vspace{1em}
+
+\begin{center}
+\begin{tabular}{llcc}
+\toprule
+\textbf{Semester} & \textbf{Course Number} & \textbf{Enrollment} & \textbf{Units} \\
+\midrule
+Spring 2025 & CMSI 2130 & 23 & 4 \\
+Spring 2025 & CMSI 6998 & 6 & 3 \\
+Fall 2025 & CMSI 2130 & 12 & 4 \\
+Fall 2025 & CMSI 2130 & 38 & 4 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+In 2025, my teaching and advising activities expanded significantly. I taught three sections of Algorithms \& Analysis and launched a new graduate special topics course on Decentralized Algorithms. My advising efforts resulted in multiple student presentations at national and international conferences, and I hired several undergraduate and graduate research assistants through external grant funding. These activities directly support LMU's mission by fostering inclusive, research-driven education and providing students from diverse backgrounds with opportunities to engage in cutting-edge scholarship.
+
+\subsection*{Teaching Activities}
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Taught:} \textit{Algorithms \& Analysis} (CMSI 2130) in both Spring and Fall 2025 semesters
+\item \textbf{Designed and Taught New Graduate Course:} \textit{Online and Decentralized Algorithms} (CMSI 6998) in Fall 2025, integrating theoretical foundations with real-world applications in distributed systems
+\item \textbf{Pre-College Summer Program:} Ran a two-week ``Python for AI-Powered Applications'' course (June 23--July 3, 2025) for LMU's pre-college summer program, introducing high school students to programming and AI concepts
+\end{itemize}
+
+\subsubsection*{Course Evaluation Summary}
+
+Across 4 course sections with 54 student responses (68\% response rate):
+
+\vspace{0.5em}
+\begin{center}
+\small
+\begin{tabular}{lccr}
+\toprule
+\textbf{Course} & \textbf{Responses} & \textbf{Rate} & \textbf{Effectiveness (SD)} \\
+\midrule
+Spring 2025 -- CMSI 2130 & 13/23 & 57\% & 4.08 (1.19) \\
+Spring 2025 -- CMSI 6998 & 5/6 & 83\% & 5.00 (0.00) \\
+Fall 2025 -- CMSI 2130 (Sec 01) & 11/12 & 92\% & 4.73 (0.65) \\
+Fall 2025 -- CMSI 2130 (Sec 02) & 25/38 & 66\% & 4.36 (0.99) \\
+\midrule
+\textbf{Aggregate} & \textbf{54/79} & \textbf{68\%} & \textbf{4.43 (0.96)} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{0.5em}
+\noindent Highest-rated areas (aggregate):
+\begin{itemize}[leftmargin=*, nosep]
+\item Learning outcomes effectively addressed: 4.67/5.0 (SD: 0.73)
+\item Learning outcomes clearly stated: 4.63/5.0 (SD: 0.65)
+\item Instructor accessible for discussions: 4.59/5.0 (SD: 0.66)
+\end{itemize}
+
+\subsection*{Advising and Mentorship}
+
+\subsubsection*{Student Researchers}
+
+\vspace{0.5em}
+\noindent
+\small
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|>{\raggedright}p{2.4cm}|>{\centering}p{3cm}|>{\raggedright}p{3.5cm}|>{\raggedright\arraybackslash}p{5.5cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Name}} & \textcolor{white}{\textbf{Dates}} & \textcolor{white}{\textbf{Current Projects}} & \textcolor{white}{\textbf{Publications \& Notes}} \\
+\hline
+\rowcolor{gradrow}
+Harsh Devisha & Fall 2025 & Cooperative mobile agent algorithms & Graduate Research Assistant \\
+\hline
+\rowcolor{gradrow}
+\makecell[l]{Mohammadali\\Khodabandehlou} & Ongoing & Dynamic IoT task graph scheduling & \cite{khodabandehlou2025sensys}; Co-advised (USC Ph.D.) \\
+\hline
+\rowcolor{undergradrow}
+Jason Chamorro & Jan 2025-- & Stochastic/online scheduling & \cite{chamorro2025works} (lead author); LMU Symposium \\
+\hline
+\rowcolor{undergradrow}
+Diego Cuadros & Ongoing & LLMs for Endangered Language Translation & \cite{cuadros2025americasnlp}; LMU Symposium poster \\
+\hline
+\rowcolor{undergradrow}
+Nick Leeds & Feb 2025-- & LLMs for Endangered Language Translation & --- \\
+\hline
+\rowcolor{undergradrow}
+Gabriel Twigg-Ho & Fall 2024-- & Dynamic scheduling problems & \cite{chamorro2025works} (co-author); Exchange student \\
+\hline
+\rowcolor{undergradrow}
+\makecell[l]{Matias Martinez\\Gonzalez} & Sep 2025-- & Task Duplication in Scheduling & --- \\
+\hline
+\rowcolor{undergradrow}
+Nicholas Laus & Sep 2025-- & Integrating SAGA with Parsl & --- \\
+\hline
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
+\normalsize
+
+\vspace{0.5em}
+\noindent\small
+\colorbox{gradrow}{\strut\ Graduate\ } \colorbox{undergradrow}{\strut\ Undergraduate\ }
+\normalsize
+
+\subsection*{Mission Contributions}
+\begin{itemize}[leftmargin=*, nosep]
+\item Mentored students from underrepresented groups and fostered an inclusive research environment
+\item Hired research assistants through external grant funding, providing paid research opportunities
+\item Supported student travel to present at conferences, including SC25 (Atlanta) through grant funding; Diego Cuadros presented at NAACL (Albuquerque) with Seaver College support
+\end{itemize}
+
+\newpage
+
+%% ============================================================================
+%% SCHOLARSHIP / RESEARCH / CREATIVE WORKS
+%% ============================================================================
+\section*{Scholarship / Research / Creative Works}
+
+\vspace{1em}
+
+In 2025, my research program advanced across three research areas: task graph scheduling algorithms, AI for endangered language preservation, and algorithms for cooperative mobile agents. I secured my first NSF grant as PI (\$150,000) and a second NSF conference grant (\$50,000), published and presented papers at top venues including SIROCCO, IPDPS, JSSPP, CCCG, and SC, and submitted proposals totaling over \$700,000. My research directly involves students at all levels and addresses societal challenges through technology (e.g., using AI to support Indigenous language revitalization). These efforts align with LMU's mission to address societal challenges, promote interdisciplinary collaboration, and foster student involvement in impactful research.
+
+\subsection*{Grants and Proposals}
+
+\vspace{0.5em}
+\noindent
+\small
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|>{\raggedright}p{3.2cm}|>{\centering}p{1.8cm}|>{\centering}p{1.5cm}|>{\centering}p{1.5cm}|>{\raggedright\arraybackslash}p{5.5cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Grant/Proposal}} & \textcolor{white}{\textbf{Amount}} & \textcolor{white}{\textbf{Role}} & \textcolor{white}{\textbf{Date}} & \textcolor{white}{\textbf{Description}} \\
+\hline
+\rowcolor{grantawarded}
+NSF CRII & \$150,000 & PI & Jul 2025 & \cite{coleman2025crii}; First NSF grant as PI \\
+\hline
+\rowcolor{grantawarded}
+NSF Conference Grant & \$50,000 & PI & Aug 2025 & \cite{coleman2025nsfconf} \\
+\hline
+\rowcolor{grantawarded}
+OpenAI API Credits & \$1,000 & PI & Jan 2025 & LLMs for Endangered Language Preservation \\
+\hline
+\rowcolor{grantpending}
+NSF DLI-DEL & \$229,501 & PI & Sep 2025 & LLMs and Endangered Language Preservation; LMU lead (\$450K total) \\
+\hline
+\rowcolor{grantpending}
+MAIDAS Subaward & \$150,000 & Co-PI & Dec 2025 & Co-design lead on \$30M platform proposal (5 years) \\
+\hline
+\rowcolor{grantpending}
+Amazon AWS Think Big & \$50,000 & PI & Nov 2025 & AI and language research \\
+\hline
+\rowcolor{grantnotawarded}
+Schmidt Sciences & --- & PI & Apr 2025 & Humanities and AI Virtual Institute (2 EOIs) \\
+\hline
+\rowcolor{grantnotawarded}
+Imminent Grant & \$20,000 & PI & Aug 2025 & Endangered language translation research \\
+\hline
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
+\normalsize
+
+\vspace{0.5em}
+\noindent\small
+\colorbox{grantawarded}{\strut\ Awarded\ } \colorbox{grantpending}{\strut\ Pending\ } \colorbox{grantnotawarded}{\strut\ Not Awarded\ }
+\normalsize
+
+\vspace{0.5em}
+\noindent\textbf{Total Awarded (2025):} \$201,000 \quad \textbf{Total Pending:} \$429,501+
+
+\subsection*{Publications and Submissions}
+
+\vspace{0.5em}
+\noindent
+\scriptsize
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{|>{\raggedright}p{5.2cm}|>{\centering}p{1.5cm}|>{\centering}p{2cm}|>{\centering}p{1.4cm}|>{\centering}p{1.4cm}|>{\centering\arraybackslash}p{2.2cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Title}} & \textcolor{white}{\textbf{Type}} & \textcolor{white}{\textbf{Venue}} & \textcolor{white}{\textbf{Submitted}} & \textcolor{white}{\textbf{Decision}} & \textcolor{white}{\textbf{Presented}} \\
+\hline
+\rowcolor{pubaccepted}
+Power of Knowledge in Linear Search \cite{coleman2026jcss} & Journal & JCSS & Aug 2025 & Dec 2025 & --- \\
+\hline
+\rowcolor{pubpending}
+Multimodal Search on a Line (extended) & Journal & Algorithmica & Sep 2025 & --- & --- \\
+\hline
+\rowcolor{pubaccepted}
+Multimodal Search on a Line \cite{coleman2025sirocco} & Conf & SIROCCO & --- & Feb 2025 & J. Coleman (Jun 3) \\
+\hline
+\rowcolor{pubaccepted}
+PISA: Adversarial Task Graph Scheduling \cite{coleman2025ipdps} & Conf & IPDPS & --- & --- & J. Coleman (Jun 5) \\
+\hline
+\rowcolor{pubaccepted}
+Algorithmic Components in Scheduling \cite{coleman2025jsspp} & Conf & JSSPP & Feb 2025 & Mar 2025 & J. Coleman (Jun 4) \\
+\hline
+\rowcolor{pubaccepted}
+Scheduling in Tactical Edge Cloud \cite{coleman2025icmcis} & Conf & ICMCIS & Jan 2025 & Feb 2025 & Co-author \\
+\hline
+\rowcolor{pubaccepted}
+Linear Search w/ Probabilistic Detection \cite{coleman2025iwoca} & Conf & IWOCA & Mar 2025 & --- & Co-author \\
+\hline
+\rowcolor{pubrejected}
+Optimal Delivery with a Faulty Drone & Conf & ACDA & Jan 2025 & Rejected & --- \\
+\hline
+\rowcolor{pubaccepted}
+Optimal Delivery with a Faulty Drone \cite{coleman2025cccg} & Conf & CCCG & May 2025 & Jun 2025 & Co-author \\
+\hline
+\rowcolor{pubaccepted}
+Classic Heuristics for Online Scheduling \cite{chamorro2025works} & Workshop & WORKS & Aug 2025 & Sep 2025 & J. Chamorro (Nov 17) \\
+\hline
+\rowcolor{pubpending}
+LLM Translation for Low-Resource Lang. & Conf & AAAI AISI & Aug 2025 & --- & --- \\
+\hline
+\rowcolor{pubrejected}
+Preemption in Dynamic Task Scheduling & Conf & ICPP & May 2025 & Rejected & --- \\
+\hline
+\rowcolor{pubaccepted}
+Scheduling Dynamic IoT Task Graphs \cite{khodabandehlou2025sensys} & Poster & SenSys & --- & Mar 2025 & M. Khodabandehlou \\
+\hline
+\rowcolor{pubaccepted}
+Chatbot for Endangered Language \cite{cuadros2025americasnlp} & Poster & AmericasNLP & Jan 2025 & Mar 2025 & D. Cuadros (Apr 29) \\
+\hline
+\rowcolor{pubaccepted}
+SAGA Tutorial \cite{coleman2025icdcn} & Tutorial & ICDCN & Sep 2025 & Sep 2025 & J. Coleman (Jan 2026) \\
+\hline
+\rowcolor{pubaccepted}
+Edge Computing at Tactical Edge \cite{coleman2025nato} & Report & NATO STO & Aug 2025 & Aug 2025 & --- \\
+\hline
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
+\normalsize
+
+\vspace{0.5em}
+\noindent\small
+\colorbox{pubaccepted}{\strut\ Accepted/Published\ } \colorbox{pubpending}{\strut\ Under Review\ } \colorbox{pubrejected}{\strut\ Rejected\ }
+\normalsize
+
+\vspace{0.5em}
+\noindent\textbf{Summary:} 11 accepted (7 conf, 1 journal, 2 posters, 1 tutorial), 2 under review, 2 rejections (1 resubmitted successfully)
+
+
+\subsection*{Other Contributions}
+\begin{itemize}[leftmargin=*, nosep]
+\item \textbf{Adjunct Appointment at USC} (May 2025): Accepted to facilitate collaboration
+\end{itemize}
+
+\newpage
+
+%% ============================================================================
+%% SERVICE
+%% ============================================================================
+\section*{Service}
+
+\vspace{1em}
+
+In 2025, I significantly expanded my service contributions across university, professional, and community domains. I took on leadership roles in multiple committees, including chairing the LMU Indigenous Working Group, joining the Seaver DEI Committee, and participating in both the CS and LMU-wide Generative AI Task Forces. My community engagement focused on Indigenous issues included organizing events, managing the Indigenous Community Hub website, and participating in advocacy efforts. Professionally, I served on an NSF review panel, multiple program committees, and as a reviewer for top journals and conferences. These activities demonstrate my commitment to LMU's mission of promoting equity, inclusion, and service to the broader community.
+
+\subsection*{Committee Memberships}
+
+\vspace{0.5em}
+\small
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|>{\raggedright\arraybackslash}p{3.2cm}|>{\raggedright\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.5cm}|>{\raggedright\arraybackslash}p{4.5cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Committee}} & \textcolor{white}{\textbf{Level}} & \textcolor{white}{\textbf{Role}} & \textcolor{white}{\textbf{Joined}} & \textcolor{white}{\textbf{Description}} \\
+\hline
+\rowcolor{serviceuniv}
+Indigenous Working Group & University & Chair & Oct 2025 & Elected Chair; previously active member \\
+\hline
+\rowcolor{serviceuniv}
+Seaver DEI Committee & College & Member & Aug 2025 & Diversity, equity, and inclusion initiatives \\
+\hline
+\rowcolor{serviceuniv}
+LMU GenAI Task Force & University & Member & Aug 2025 & University-wide policy on Generative AI \\
+\hline
+\rowcolor{serviceuniv}
+CS GenAI Task Force & Department & Member & Jul 2025 & Documents on GenAI in higher education \\
+\hline
+\rowcolor{serviceprof}
+AI \& Indigenous Languages Workshop Committee & Professional & Chair & Sep 2025 & Organizing committee for NSF-funded workshop \\
+\hline
+\rowcolor{serviceprof}
+AAAI AISI Program Committee & Professional & Member & Sep 2025 & AI for Social Impact track \\
+\hline
+\rowcolor{serviceprof}
+WISDOM 2025 Program Committee & Professional & Member & Jul 2025 & Workflows in support of large-scale science \\
+\hline
+\rowcolor{serviceprof}
+CCGrid Artifact Evaluation Committee & Professional & Member & Mar 2025 & Artifact evaluation \\
+\hline
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
+\normalsize
+
+\vspace{0.5em}
+\noindent\small
+\colorbox{serviceuniv}{\strut\ University/College/Dept\ } \colorbox{serviceprof}{\strut\ Professional\ }
+\normalsize
+
+\subsection*{Events}
+
+\vspace{0.5em}
+\small
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|>{\centering\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{4cm}|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{5cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Date}} & \textcolor{white}{\textbf{Event}} & \textcolor{white}{\textbf{Role}} & \textcolor{white}{\textbf{Description}} \\
+\hline
+\rowcolor{serviceevent}
+Dec 3, 2025 & IN FOCUS: Indigenous Representation & Organizer & Featured Tazbah Rose Chavez \& Pamela J. Peters \\
+\hline
+\rowcolor{serviceevent}
+Nov 12, 2025 & LLL Series, Univ. of Illinois Chicago & Invited Speaker & Talk on LLMs and Endangered Language Revitalization \\
+\hline
+\rowcolor{serviceevent}
+Oct 24, 2025 & Seaver Family Night & Presenter & Gave Lightning Lecture \\
+\hline
+\rowcolor{serviceevent}
+Oct 6, 2025 & MILCOM 2025 & Session Chair & Data Integrity \& Threat Awareness session \\
+\hline
+\rowcolor{serviceevent}
+Sep 18, 2025 & NSF CSR PI Meeting & Attendee & Boca Raton, Florida \\
+\hline
+\rowcolor{serviceevent}
+Sep 5, 2025 & Univ. of Arizona Dept. of Linguistics & Invited Speaker & AI and Indigenous Language Revitalization \\
+\hline
+\rowcolor{serviceevent}
+May 24, 2025 & NSF DLI Community of Science & Attendee & Indigenous Language Preservation event \\
+\hline
+\rowcolor{serviceevent}
+Mar 20, 2025 & Indigenous Working Group Talk & Organizer & Hosted Teri Red Owl on Indigenous water rights \\
+\hline
+\rowcolor{serviceevent}
+Jan 22, 2025 & Seaver Lunch N' Learn & Attendee & International Collaborations with Indian Institutions \\
+\hline
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
+\normalsize
+
+\subsection*{Professional Service (Reviewing \& Organizing)}
+
+\vspace{0.5em}
+\small
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|>{\raggedright\arraybackslash}p{6cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2.5cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Venue}} & \textcolor{white}{\textbf{Type}} & \textcolor{white}{\textbf{Date}} & \textcolor{white}{\textbf{Role}} \\
+\hline
+\href{https://netcompute.org}{NetCompute Workshop} @ INFOCOM & Workshop & Nov 2025 & Co-Organizer \\
+\hline
+SC 2025 Reproducibility Challenge & Conference & Jan 2025 & Committee \\
+\hline
+NSF DLI-DEL Panel & Grant Panel & May 2025 & Panelist \\
+\hline
+IEEE Transactions on Computers & Journal & Sep 2025 & Reviewer \\
+\hline
+Discrete Applied Mathematics & Journal & Jun 2025 & Reviewer \\
+\hline
+Theoretical Computer Science & Journal & Dec 2025 & Reviewer \\
+\hline
+Int'l Journal of Computer Applications (IJCAT) & Journal & Jan 2025 & Reviewer \\
+\hline
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
+\normalsize
+
+\subsection*{Other Service \& Engagement}
+\begin{itemize}[leftmargin=*, nosep]
+\item \textbf{LMU Indigenous Community Hub} (Jun 2025): Took over management and updated the website
+\item \textbf{Tribal Settlement Letter} (Aug 2025): Signed letter urging Los Angeles to commit to Tribal settlement negotiations (corresponding author: Sophia Borgias)
+\item \textbf{Kubishi Survey} (Jul 2025): Submitted IRB-approved survey on digital tools for Owens Valley Paiute Language Revitalization
+\item \textbf{Coinbase} (started Jan 2025): Consulting on using reinforcement learning to detect fraud in blockchain transactions
+\end{itemize}
+
+\newpage
+
+%% ============================================================================
+%% REFERENCES
+%% ============================================================================
+
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+%% ============================================================================
+%% SIGNATURE PAGE (from official PDF)
+%% ============================================================================
+\includepdf[pages={6}]{FINAL_FSR Form for FT-TL Faculty 2025.pdf}
+
+\end{document}
