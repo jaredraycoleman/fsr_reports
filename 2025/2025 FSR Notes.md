@@ -89,5 +89,5 @@
 - **12/03/2025**: Hosted Indigenous Working Group Event, "IN FOCUS: Indigenous Representation in the Arts and Media" featuring Emmy-nominated producer, writer, and director Tazbah Rose Chavez (Bishop Paiute) and multimedia documentarian and photographer Pamela J. Peters (Diné).
 - **12/08/2025**: JCSS Journal Published (https://www.sciencedirect.com/science/article/pii/S0022000025001199)
 - **12/08/2025**: Reviewed for Theoretical Computer Science Journal
-- **12/22/2026**: Met with Awahusu, directory of the Nüümü Yadoha Language Program in Bishop, CA to discuss potential collaborations on technology for language revitalization programs.
+- **12/22/2025**: Met with Awahusu, director of the Nüümü Yadoha Language Program in Bishop, CA to discuss potential collaborations on technology for language revitalization programs.
 

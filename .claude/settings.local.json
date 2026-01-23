@@ -5,7 +5,8 @@
       "Bash(pdflatex:*)",
       "Bash(biber:*)",
       "Bash(dir:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(python analyze_evals.py:*)"
     ]
   }
 }
